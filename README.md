@@ -1,4 +1,4 @@
-# Deep Learning Bird Camera
+# NVIDIA Jetson Powered Deep Learning Bird Camera
 
 ![Jetson Deep Learning Bird Camera](https://github.com/burningion/deep-learning-bird-camera/raw/master/images/closed.jpg)
 
@@ -32,7 +32,7 @@ Eventually, these detected images will be available through a web based interfac
 
 ![Jetson Deep Learning Bird Camera](https://github.com/burningion/deep-learning-bird-camera/raw/master/images/open.jpg)
 
-The shell of the deep learning camera is a plywood box, that's been painted.
+The exterior shell of the deep learning camera is just a plywood box that's been painted.
 
 The plan is to add individual modules (like food dispensors, buttons, etc) to the Deep Learning Bird Camera, by drilling 1" holes in the box.
 
