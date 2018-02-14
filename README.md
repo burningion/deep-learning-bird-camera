@@ -42,4 +42,14 @@ The current modules are in the `stl` folder of this repository, and were 3D prin
 
 (Since the models were designed in Blender, using Blender's built in units, they don't really translate when exporting as STL.)
 
+## How do I run it?
+
+Depending on how much you want to reproduce, you'll need to install Tensorflow and the Darkflow models on the TX1. 
+
+This will allow you to run the included inference loop in the TX1_Code directory. Just run this Python program, and you should be good.
+
+If you want to send web requests to the Raspberry Pi, and have that take robotic / camera capture action, you'll need to `scp` the code in the Raspberry_Pi_Code directory over to the Raspberry Pi, and run `app.py` with Python 3. Then, make sure your TX1 code is `wget`'ing the right IP address on your WIFI network.
+
 ![Birds in Action](https://github.com/burningion/deep-learning-bird-camera/raw/master/images/birds.gif)
+
+### GOOD LUCK!
