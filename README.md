@@ -41,3 +41,5 @@ Modules for the device will then fit inside these 1" holes, allowing for expanda
 The current modules are in the `stl` folder of this repository, and were 3D printed using PLA and a Prusa i3 MK2 printer. They were sliced using PrusaControl, and the models themselves were scaled to 41% for printing.
 
 (Since the models were designed in Blender, using Blender's built in units, they don't really translate when exporting as STL.)
+
+![Birds in Action](https://github.com/burningion/deep-learning-bird-camera/raw/master/images/birds.gif)
